@@ -1,0 +1,42 @@
++-----------+--------------+---------------+--------------+
+| location  | missing_days | first_missing | last_missing |
++-----------+--------------+---------------+--------------+
+| Hong Kong |          316 | 2020-02-01    | 2021-02-21   |
+| Cyprus    |           34 | 2020-02-03    | 2020-03-07   |
+| Portugal  |           24 | 2020-02-03    | 2020-02-29   |
+| Estonia   |           13 | 2020-02-13    | 2020-02-25   |
+| Norway    |            2 | 2020-02-24    | 2020-02-25   |
++-----------+--------------+---------------+--------------+
++------------------------------------------------+---------------+-----------+
+| issue                                          | rows_affected | countries |
++------------------------------------------------+---------------+-----------+
+| Days with negative new cases                   |            61 |        38 |
+| Days with negative new deaths                  |            80 |        41 |
+| Days where cumulative tests < cumulative cases |            14 |         5 |
+| Countries with no testing data at all          |            93 |        93 |
++------------------------------------------------+---------------+-----------+
++---------------------+---------------+---------------+-------------+
+| location            | continent     | pct_zero_days | total_cases |
++---------------------+---------------+---------------+-------------+
+| Congo               | Africa        |          78.4 |       10678 |
+| Botswana            | Africa        |          74.1 |       46934 |
+| Cameroon            | Africa        |          64.6 |       72250 |
+| Papua New Guinea    | Oceania       |          64.1 |       10997 |
+| Cambodia            | Asia          |          58.3 |       13402 |
+| Lesotho             | Africa        |          57.2 |       10731 |
+| Somalia             | Africa        |          53.0 |       13915 |
+| Gabon               | Africa        |          52.1 |       23075 |
+| Mongolia            | Asia          |          41.0 |       37285 |
+| South Sudan         | Africa        |          40.7 |       10583 |
+| Belize              | North America |          39.9 |       12668 |
+| Bahamas             | North America |          39.2 |       10453 |
+| Madagascar          | Africa        |          37.3 |       37014 |
+| Tajikistan          | Asia          |          34.2 |       13308 |
+| Sudan               | Africa        |          33.9 |       33944 |
+| Andorra             | Europe        |          32.7 |       13232 |
+| Haiti               | North America |          30.2 |       13056 |
+| Sweden              | Europe        |          29.7 |      973604 |
+| Ghana               | Africa        |          29.1 |       92562 |
+| Spain               | Europe        |          26.4 |     3524077 |
+| Trinidad and Tobago | North America |          25.7 |       10824 |
++---------------------+---------------+---------------+-------------+
